@@ -97,7 +97,7 @@ goToProject(){
   select opnPrj in $PROJECTDIR/*
   do
    case $opnPrj in
-	   $PROJETDIR/*)
+	   $PROJECTDIR/*)		   
      cd $opnPrj
      break
      return
